@@ -24,4 +24,4 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.0.5" % Test
 )
 
-addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.5.1")
+//addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.5.1")
