@@ -29,7 +29,7 @@ case class ServerConfig(
 object ServerConfig {
 
   import system.dispatcher
-  implicit val system: ActorSystem = ActorSystem(name = "todoapi")
+  implicit val system: ActorSystem = ActorSystem(name = "api")
   implicit val materializer: ActorMaterializer = ActorMaterializer()
 
   val mongoRouter = new CacheRouter()
